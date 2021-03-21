@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NfcIntentProxy</string>
+    <string name="app_main_notice">
+        There are currently no UI options/settings.
+
+
+        This app simply registers pre-defined URLs for android.nfc.action.NDEF_DISCOVERED
+        and broadcasts its own intent with the serial number of the tag.
+
+
+        Main use case is recycling read-only RFID/NFC tags for the use with Home Assistant.
+
+
+        See the project website for more info.
+    </string>
+</resources>
